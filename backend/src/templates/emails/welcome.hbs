@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Welcome to COP Abu Dhabi!</h1>
+    </div>
+    
+    <p>Dear {{name}},</p>
+    
+    <p>We are delighted to welcome you as a new member of the Church of Pentecost Abu Dhabi! Your membership application has been approved, and we look forward to growing together in faith and fellowship.</p>
+    
+    <p>Here are some important next steps:</p>
+    <ul>
+      <li>Complete your member profile</li>
+      <li>Join a ministry</li>
+      <li>Connect with your assigned deacon/deaconess</li>
+      <li>Attend our new members orientation</li>
+    </ul>
+    
+    <p>If you have any questions, please don't hesitate to reach out to our pastoral team.</p>
+    
+    <p>Best regards,<br>
+    The COP Abu Dhabi Team</p>
+    
+    <div class="footer">
+      <p>Church of Pentecost Abu Dhabi<br>
+      {{churchAddress}}<br>
+      Tel: {{churchPhone}}</p>
+    </div>
+  </div>
+</body>
+</html> 
